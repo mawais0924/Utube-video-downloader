@@ -1,5 +1,4 @@
 Flask
 pytube
-# gunicorn (is line ko hata den ya aage # laga den)
-# Vercel ke liye yeh line add karen:
 vercel-python
+

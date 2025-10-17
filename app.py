@@ -46,7 +46,8 @@ def download_video():
         print(f"Download Error: {e}")
         return f"Download mein koi gadbadi ho gayi: {str(e)}", 500
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # Yeh development ke liye hai, production mein Render/Gunicorn isko khud manage karega
 
-    app.run(host='0.0.0.0', port=os.environ.get('PORT', 5000), debug=True)
+    # app.run(host='0.0.0.0', port=os.environ.get('PORT', 5000), debug=True)
+

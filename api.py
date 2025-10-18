@@ -3,7 +3,7 @@ from pytube import YouTube
 from io import BytesIO
 import os
 
-app = Flask(__name__)
+api = Flask(__name__)
 
 # Server ka woh route (address) jahan se download shuru hoga
 @app.route('/download', methods=['GET'])
@@ -50,4 +50,5 @@ def download_video():
     # Yeh development ke liye hai, production mein Render/Gunicorn isko khud manage karega
 
     # app.run(host='0.0.0.0', port=os.environ.get('PORT', 5000), debug=True)
+
 
